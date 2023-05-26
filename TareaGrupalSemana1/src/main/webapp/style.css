@@ -1,0 +1,49 @@
+.custom-container {
+  display: flex;
+  border-bottom: 2px solid blue;
+}
+
+h1 {
+  display: flex;
+  align-self: flex-end;
+  padding-left: 4%;
+}
+
+.custom-footer {
+  border-top: 2px solid blue;
+}
+
+.titulo-body {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.nota {
+  margin-top: 1%;
+ 
+}
+
+.card{
+  background-color: gray;
+}
+
+.custom-padding {
+  padding-bottom: 1%; 
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
